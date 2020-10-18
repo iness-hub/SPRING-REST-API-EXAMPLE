@@ -1,0 +1,35 @@
+2020-10-17 14:25:12.583  INFO 11236 --- [main] n.f.druppelapi.DruppelapiApplication     : Starting DruppelapiApplication on DESKTOP-LIOP2SO with PID 11236 (C:\Users\Cherif\Documents\mini projecten portfolio\druppelapi\target\classes started by Cherif in C:\Users\Cherif\Documents\mini projecten portfolio\druppelapi)
+2020-10-17 14:25:12.613  INFO 11236 --- [main] n.f.druppelapi.DruppelapiApplication     : No active profile set, falling back to default profiles: default
+2020-10-17 14:25:13.957  INFO 11236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-17 14:25:14.017  INFO 11236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 2 JPA repository interfaces.
+2020-10-17 14:25:14.530  INFO 11236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-17 14:25:14.538  INFO 11236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-17 14:25:14.538  INFO 11236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-17 14:25:14.625  INFO 11236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-17 14:25:14.626  INFO 11236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1805 ms
+2020-10-17 14:25:14.828  INFO 11236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-17 14:25:14.980  WARN 11236 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-17 14:25:15.200 DEBUG 11236 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-10-17 14:25:15.244 DEBUG 11236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2020-10-17 14:25:15.277 DEBUG 11236 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-10-17 14:25:15.285 DEBUG 11236 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-10-17 14:25:15.385  INFO 11236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-17 14:25:15.386  INFO 11236 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-17 14:25:15.431  INFO 11236 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-17 14:25:18.173  INFO 11236 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-17 14:25:19.722  INFO 11236 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-17 14:25:19.987  INFO 11236 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-17 14:25:20.010  INFO 11236 --- [main] n.f.druppelapi.DruppelapiApplication     : Started DruppelapiApplication in 8.075 seconds (JVM running for 10.576)
+2020-10-17 14:25:20.771  INFO 11236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-17 14:25:20.771  INFO 11236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-17 14:25:20.771 DEBUG 11236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-10-17 14:25:20.783 DEBUG 11236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-10-17 14:25:20.784  INFO 11236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-10-17 14:25:20.797 DEBUG 11236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/garden/all", parameters={}
+2020-10-17 14:25:20.827 DEBUG 11236 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.GardenController#getAllGarden()
+2020-10-17 14:25:22.214 DEBUG 11236 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-17 14:25:22.215 DEBUG 11236 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[nl.fontys.druppelapi.model.Garden@3bc3ac42, nl.fontys.druppelapi.model.Garden@74b42282, nl.fontys.d (truncated)...]
+2020-10-17 14:25:22.554 DEBUG 11236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-10-17 17:12:43.791  WARN 11236 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m53s512ms96µs700ns).
+2020-10-17 20:47:52.595  WARN 11236 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h30m37s852ms926µs500ns).
+2020-10-17 21:06:25.459  WARN 11236 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m32s786ms51µs200ns).
